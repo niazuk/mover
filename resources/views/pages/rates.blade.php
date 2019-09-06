@@ -1,0 +1,10 @@
+@extends('layouts.master')
+@section('Title', config('data.rates.title'))
+@section('PageDescription', config('data.home.description'))
+@section('PageTags', config('data.home.tags'))
+@section('PageTitle', config('data.rates.page_title'))
+@section('PageSubtitle', config('data.rates.page_subtitle'))
+@section('PageBreadcrumbs', config('data.rates.page_breadcrumbs'))
+@section('PageContent')
+	@include('includes.rates_block')
+@endsection

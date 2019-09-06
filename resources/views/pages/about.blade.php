@@ -1,0 +1,10 @@
+@extends('layouts.master')
+@section('Title', config('data.about.title'))
+@section('PageDescription', config('data.home.description'))
+@section('PageTags', config('data.home.tags'))
+@section('PageTitle', config('data.about.page_title'))
+@section('PageSubtitle', config('data.about.page_subtitle'))
+@section('PageBreadcrumbs', config('data.about.page_breadcrumbs'))
+@section('PageContent')
+	@include('includes.about_block')
+@endsection

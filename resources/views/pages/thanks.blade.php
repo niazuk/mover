@@ -1,0 +1,10 @@
+@extends('layouts.master')
+@section('Title', config('data.thanks.title'))
+@section('PageDescription', config('data.home.description'))
+@section('PageTags', config('data.home.tags'))
+@section('PageTitle', config('data.thanks.page_title'))
+@section('PageSubtitle', config('data.thanks.page_subtitle'))
+@section('PageBreadcrumbs', config('data.thanks.page_breadcrumbs'))
+@section('PageContent')
+	@include('includes.thanks_block')
+@endsection

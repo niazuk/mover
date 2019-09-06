@@ -1,0 +1,10 @@
+@extends('layouts.master')
+@section('Title', config('data.contact.title'))
+@section('PageDescription', config('data.home.description'))
+@section('PageTags', config('data.home.tags'))
+@section('PageTitle', config('data.contact.page_title'))
+@section('PageSubtitle', config('data.contact.page_subtitle'))
+@section('PageBreadcrumbs', config('data.contact.page_breadcrumbs'))
+@section('PageContent')
+	@include('includes.contact_block')
+@endsection
